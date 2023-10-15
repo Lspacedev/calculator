@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Calculator</title>
 </head>
 <body>
@@ -11,24 +13,35 @@
             <div class="result"></div>
         </div>
         <div class="buttons">
-            <div class="numbers">
-                <button>0</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
+            <div class="row-1">
+                <button class="operators">AC</button>
+                <button class="operators">Del</button>
+                <button class="operators">%</button>
+                <button class="operators">/</button>
             </div>
-            <div class="operators">
-                <button>+</button>
-                <button>-</button>
-                <button>*</button>
-                <button>/</button>
-                <button>==</button>
+            <div class="row-2">
+                <button class="numbers">9</button>
+                <button class="numbers">8</button>
+                <button class="numbers">7</button>
+                <button class="operators">+</button>
+                
+            </div>
+            <div class="row-3">
+                <button class="numbers">6</button>
+                <button class="numbers">5</button>
+                <button class="numbers">4</button>
+                <button class="operators">-</button>
+            </div>
+            <div class="row-4">
+                <button class="numbers">3</button>
+                <button class="numbers">2</button>
+                <button class="numbers">1</button>
+                <button class="operators">*</button>
+            </div>
+            <div class="row-5">
+                <button class="numbers">0</button>
+                <button class="operators">.</button>
+                <button class="operators">=</button>
             </div>
         </div>
     </div>

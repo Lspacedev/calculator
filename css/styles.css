@@ -1,0 +1,73 @@
+
+.container {
+    height: 500px;
+    width: 325px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+
+.screen {
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: inset 1px 1px 1px 2px black;
+    margin: auto;
+}
+
+.buttons {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.numbers{
+    height: 70px;
+    width: 75px;
+    
+}
+
+.operators {
+    height: 70px;
+    width: 75px;
+}
+
+.row-5 {
+    display: flex;
+    flex: 1;
+    margin-right: 2px;
+    width: 312px;
+}
+
+div.row-5 > button:nth-child(1) {
+    margin-right: 4px;
+
+}
+
+div.row-5 > button:nth-child(2) {
+    margin-right: 4px;
+
+}
+
+
+div.row-5 > button:last-child {
+    flex-grow: 2;
+    padding: 1px;
+    margin: 0;
+
+}
