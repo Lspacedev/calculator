@@ -10,38 +10,38 @@
 <body>
     <div class="container">
         <div class="screen">
-            <div class="result"></div>
+            <div class="display"></div>
         </div>
         <div class="buttons">
             <div class="row-1">
                 <button class="operators">AC</button>
                 <button class="operators">Del</button>
                 <button class="operators">%</button>
-                <button class="operators">/</button>
+                <button class="operators eval" onclick="getOperator(this)">/</button>
             </div>
             <div class="row-2">
-                <button class="numbers">9</button>
-                <button class="numbers">8</button>
-                <button class="numbers">7</button>
-                <button class="operators">+</button>
+                <button class="numbers" onclick="getValue(this)">9</button>
+                <button class="numbers" onclick="getValue(this)">8</button>
+                <button class="numbers" onclick="getValue(this)">7</button>
+                <button class="operators eval" onclick="getOperator(this)">+</button>
                 
             </div>
             <div class="row-3">
-                <button class="numbers">6</button>
-                <button class="numbers">5</button>
-                <button class="numbers">4</button>
-                <button class="operators">-</button>
+                <button class="numbers" onclick="getValue(this)">6</button>
+                <button class="numbers" onclick="getValue(this)">5</button>
+                <button class="numbers" onclick="getValue(this)">4</button>
+                <button class="operators eval" onclick="getOperator(this)">-</button>
             </div>
             <div class="row-4">
-                <button class="numbers">3</button>
-                <button class="numbers">2</button>
-                <button class="numbers">1</button>
-                <button class="operators">*</button>
+                <button class="numbers" onclick="getValue(this)">3</button>
+                <button class="numbers" onclick="getValue(this)">2</button>
+                <button class="numbers" onclick="getValue(this)">1</button>
+                <button class="operators eval" onclick="getOperator(this)">*</button>
             </div>
             <div class="row-5">
-                <button class="numbers">0</button>
-                <button class="operators">.</button>
-                <button class="operators">=</button>
+                <button class="numbers" onclick="getValue(this)">0</button>
+                <button class="operators" onclick="getDot(this)">.</button>
+                <button class="operators" onclick="operate()">=</button>
             </div>
         </div>
     </div>

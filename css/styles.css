@@ -22,6 +22,12 @@
     margin: auto;
 }
 
+.display {
+    padding-top: 50px;
+    text-align: right;
+    font-size: 35px;
+}
+
 .buttons {
     height: 350px;
     display: flex;
